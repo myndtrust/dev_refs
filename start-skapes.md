@@ -17,3 +17,4 @@ sudo python3 -m venv .venv
 sudo fuser -k 4200/tcp
 Install fuser: sudo apt-get install psmisc
 dap django-admin user:eric pw:3959880
+docker-compose exec db psql -U postgres
